@@ -6,6 +6,10 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 
 /****************************************
@@ -45,3 +49,19 @@ section {
 h3 {
   font-family: 'Josefin Sans', sans-serif;
 }
+
+#gallery {
+  list-style: none;
+}
+
+
+/****************************************
+Footer
+****************************************/
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
