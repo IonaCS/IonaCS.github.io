@@ -15,6 +15,7 @@ Heading
 #logo {
   text-align: center;
   margin: 0;
+  text-decoration: none;
 }
 
 h2 {
