@@ -45,6 +45,7 @@ Section
 
 section {
   background: #fdfcdb;
+}
 
 h3 {
   font-family: 'Josefin Sans', sans-serif;
@@ -54,6 +55,7 @@ h3 {
   list-style: none;
   mix-height: 435px;
   max-width: 604px;
+  float: left;
 }
 
 
