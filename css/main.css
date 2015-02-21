@@ -17,6 +17,16 @@ h2 {
 }
 
 h1 {
-  font-family: Pacifico', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
+
+
+
+/****************************************
+Navigation
+****************************************/
+
+section ul {
+  list-style: none;
+}
