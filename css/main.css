@@ -2,7 +2,7 @@
 General
 ****************************************/
 
-bod {
+body {
   font-family: 'Muli', sans-serif;
 }
 
@@ -12,21 +12,27 @@ bod {
 Heading
 ****************************************/
 
-h {
-  font-family: 'Pacifico', cursive;
+#logo {
+  text-align: center;
+  margin: 0;
 }
 
-h {
+h2 {
   font-family: 'Pacifico', cursive;
+  font-size: 1.75em;
+  font weight: normal;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.75em;
+  font weight: normal;
 }
 
 
 
 
 /****************************************
-Navigation
+Section
 ****************************************/
 
-section ul {
-  list-style: none;
-}
