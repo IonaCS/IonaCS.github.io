@@ -57,13 +57,19 @@ img {
 }
 
 section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+section ul li {
   float: left;
   width: 28.33333%;
   margin: 2.5%
   background-color: #fdfcdb;
 }
 
-section ul li {
+# gallery {
   margin: 0;
   padding: 0;
   list-style: none;
