@@ -56,6 +56,14 @@ img {
   max-width: 100%;
 }
 
+section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  width: 28.33333%;
+  margin: 2.5%;
+}
 
 # gallery {
   margin: 0;
