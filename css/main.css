@@ -50,6 +50,10 @@ header nav {
 Section    d6f3fc=verylightblue
 ****************************************/
 
+div {
+  background: #a5e8fc;
+}
+
 section {
   background: #d6f3fc;
 }
