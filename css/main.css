@@ -45,9 +45,12 @@ h2 {
   color: #1c3e2d;
 }
 
-nav a {
+nav {
   text-align: right;
   margin: 0 1%;
+}
+
+nav a {
   color: #1c3e2d;
 }
 
