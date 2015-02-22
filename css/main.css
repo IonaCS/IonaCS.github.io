@@ -45,10 +45,14 @@ h2 {
   color: #1c3e2d;
 }
 
-nav ul li{
+nav ul li a {
   text-align: right;
   margin: 0 1%;
   color: #1c3e2d;
+}
+
+nav a.selected, nav a:hover {
+  color: #fff;
 }
 
 
