@@ -98,6 +98,23 @@ img {
   background-color: #d6f3fc;
 }
 
+#maingallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#maingallery li {
+  float: left;
+  width: 28.33333%;
+  margin: 2.5%;
+  background-color: #d6f3fc;
+}
+
+#maingallery a:hover {
+  opacity: -0.4;
+}
+
 
 
 /****************************************
