@@ -24,7 +24,7 @@ header {
   text-align: left;
   margin: 0;
   text-decoration: none;
-  color: #1c3e2d;
+  font-color: #1c3e2d;
   background: #a5e8fc;
 }
 
@@ -32,10 +32,11 @@ h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 2.75em;
   font weight: normal;
+  font-color: #1c3e2d;
 }
 
 h2 {
-  font-family: 'Dancing Script', cursive
+  font-family: 'Dancing Script', cursive;
   font-size: 1.75em;
   font weight: normal;
 }
