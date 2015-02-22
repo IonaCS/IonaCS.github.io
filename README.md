@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Hello World!</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<h1>Bonjour tout le monde!</h1>
+<p>Welcome to my GitHub page</p>
 </body>
 </html>

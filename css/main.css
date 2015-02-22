@@ -10,24 +10,22 @@ a {
   text-decoration: none;
 }
 
+div {
+max width: 940px;
+}
+
 
 
 /****************************************
-Heading
+Heading   a5e8fc=lightblue 1c3e2d=murkydarkgreen
 ****************************************/
 
 header {
-  text-align: center;
+  text-align: left;
   margin: 0;
   text-decoration: none;
-  color: #850274;
-  background: #fdfbb8;
-}
-
-h2 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.75em;
-  font weight: normal;
+  color: #1c3e2d;
+  background: #a5e8fc;
 }
 
 h1 {
@@ -36,15 +34,24 @@ h1 {
   font weight: normal;
 }
 
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.75em;
+  font weight: normal;
+}
+
+header nav {
+  text-align: right;
+}
 
 
 
 /****************************************
-Section
+Section    d6f3fc=verylightblue
 ****************************************/
 
 section {
-  background: #fdfcdb;
+  background: #d6f3fc;
 }
 
 h3 {
@@ -66,7 +73,7 @@ img {
   float: left;
   width: 28.33333%;
   margin: 2.5%;
-  background-color: #fdfcdb;
+  background-color: #d6f3fc;
 }
 
 
