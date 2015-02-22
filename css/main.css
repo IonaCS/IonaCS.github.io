@@ -33,18 +33,21 @@ h1 {
   font-size: 2.75em;
   font-weight: normal;
   margin: 0 0 0 2%;
+  padding: 1%;
 }
 
 h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 1.75em;
   font-weight: normal;
-  margin: 0 0 2% 2%;
+  margin: 0 0 0 2%;
+  padding: 0 0 1%;
 }
 
 header nav {
   text-align: right;
-  margin: 0 1% 1% 0;
+  margin: 0 1%;
+  padding: 0 0 1%;
 }
 
 
