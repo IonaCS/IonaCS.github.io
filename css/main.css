@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive
   font-size: 1.75em;
   font weight: normal;
 }
@@ -47,11 +47,11 @@ header nav {
 
 
 /****************************************
-Section    d6f3fc=verylightblue
+Section    d6f3fc=verylightblue eef9fc=lighter
 ****************************************/
 
 div {
-  background: #a5e8fc;
+  background: #eef9fc;
 }
 
 section {
