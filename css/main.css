@@ -32,13 +32,14 @@ h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 2.75em;
   font-weight: normal;
-  font-color: 1c3e2d;
+  padding: 0 0 0 2%;
 }
 
 h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 1.75em;
   font-weight: normal;
+  padding: 0 0 2% 2%;
 }
 
 header nav {
@@ -62,6 +63,10 @@ section {
 h3 {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+}
+
+p {
+  color: #1c3e2d;
 }
 
 img {
