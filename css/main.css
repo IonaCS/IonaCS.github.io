@@ -45,10 +45,10 @@ h2 {
   color: #1c3e2d;
 }
 
-header nav ul li{
+nav {
   text-align: right;
   margin: 0 1%;
-  text-color: #1c3e2d;
+  color: #1c3e2d;
 }
 
 
