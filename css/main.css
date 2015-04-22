@@ -1,0 +1,136 @@
+/***************************************************
+General
+***************************************************/
+
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: #eef9fc;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+
+
+/***************************************************
+Heading a5e8fc=lightblue 1c3e2d=murkydarkgreen  
+text-decoration:none for header?
+***************************************************/
+
+header {
+  text-align: left;
+  margin: 0 0 20px 0;
+  background: #a5e8fc;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.75em;
+  font-weight: normal;
+  margin: 0 0 0 2%;
+  padding: 1%;
+  color: #1c3e2d;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.75em;
+  font-weight: normal;
+  margin: 0 0 0 2%;
+  padding: 0 0 1%;
+  color: #1c3e2d;
+}
+
+nav {
+  text-align: right;
+  margin: 0 1%;
+}
+
+
+nav a {
+  color: #1c3e2d;
+  padding: 15px 10px;
+}
+
+
+nav a:hover {
+  color: #fff;
+}
+
+
+
+/***************************************************
+Section d6f3fc=verylightblue eef9fc=lighter
+--- Edit p margin to 0? --- HOVER ENLARGE? transform: scale(1.1);
+***************************************************/
+
+/*background-image - Accepts an image path that applies the file to the background of an element.
+background-size - Sets the size of background images.
+background-repeat - Sets whether or not a background image should be repeated. By default, backgrounds will repeat.8/
+
+section {
+  background: #d6f3fc;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+#gallery li a p {
+  margin: 5px 5px 5px 5px;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  color: #1c3e2d;
+}
+
+img {
+  max-width: 100%;
+}
+
+#maingallery, #gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#maingallery li, #gallery li {
+  float: left;
+  width: 28.33333%;
+  margin: 2.5%;
+  background-color: #d6f3fc;
+}
+
+#maingallery a {
+  opacity: 1.0;
+}
+
+#maingallery a:hover {
+    opacity: 0.4;
+}
+
+
+
+/***************************************************
+Footer
+***************************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+footer a {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;  
+}
