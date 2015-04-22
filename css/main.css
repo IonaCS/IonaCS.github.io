@@ -21,7 +21,6 @@ body {
 
 /***************************************************
 Heading a5e8fc=lightblue 1c3e2d=murkydarkgreen  
-text-decoration:none for header?
 ***************************************************/
 
 header {
@@ -48,9 +47,10 @@ h2 {
   color: #1c3e2d;
 }
 
-nav {
+nav ul {
   text-align: right;
   margin: 0 1%;
+  list-style: none;
 }
 
 
@@ -68,12 +68,11 @@ nav a:hover {
 
 /***************************************************
 Section d6f3fc=verylightblue eef9fc=lighter
---- Edit p margin to 0? --- HOVER ENLARGE? transform: scale(1.1);
 ***************************************************/
 
 /*background-image - Accepts an image path that applies the file to the background of an element.
 background-size - Sets the size of background images.
-background-repeat - Sets whether or not a background image should be repeated. By default, backgrounds will repeat.8/
+background-repeat - Sets whether or not a background image should be repeated. By default, backgrounds will repeat.*/
 
 section {
   background: #d6f3fc;
@@ -112,7 +111,7 @@ img {
 }
 
 #maingallery a:hover {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 
@@ -129,7 +128,7 @@ footer {
   color: #ccc;
 }
 
-footer a {
+footer img {
   width: 20px;
   height: 20px;
   margin: 0 5px;  
