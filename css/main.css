@@ -99,10 +99,17 @@ img {
   list-style: none;
 }
 
-#maingallery li, #gallery li {
+#maingallery li, {
   float: left;
   width: 28.33333%;
   margin: 2.5%;
+  background-color: #d6f3fc;
+}
+
+#gallery li {
+  float: left;
+  width: 90%;
+  margin: 5%;
   background-color: #d6f3fc;
 }
 
