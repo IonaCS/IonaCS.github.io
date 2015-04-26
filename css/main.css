@@ -72,7 +72,9 @@ Section d6f3fc=verylightblue eef9fc=lighter
 
 /*background-image - Accepts an image path that applies the file to the background of an element.
 background-size - Sets the size of background images.
-background-repeat - Sets whether or not a background image should be repeated. By default, backgrounds will repeat.*/
+background-repeat - Sets whether or not a background image should be repeated. By default, backgrounds will repeat.
+
+Can select specific a part of a border (border-bottom-color:) and take advantage of CSS order rules*/
 
 section {
   background: #d6f3fc;
@@ -81,11 +83,12 @@ section {
 h3 {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+  border: 3px dotted #a5e8fc;
 }
 
 #gallery li a p {
-  margin: 5px 5px 5px 5px;
-  padding: 0.5% 0.5% 0.5% 0.5%;
+  margin: 5px;
+  padding: 0.5%;
   color: #1c3e2d;
 }
 
@@ -102,14 +105,14 @@ img {
 #gallery li {
   float: left;
   width: 90%;
-  margin: 5%;
+  margin: 5% 5% 10% 5%;
   background-color: #d6f3fc;
 }
 
 #maingallery li {
   float: left;
   width: 28.33333%;
-  margin: 2.5%;
+  margin: 2.5% 2.5% 5% 2.5%;
   background-color: #d6f3fc;
 }
 
@@ -133,6 +136,7 @@ footer {
   clear: both;
   padding-top: 50px;
   color: #ccc;
+  border-top: 3px dotted #a5e8fc;
 }
 
 footer img {

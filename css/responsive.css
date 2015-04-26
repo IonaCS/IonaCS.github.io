@@ -7,7 +7,7 @@ Section
 #gallery li {
   float: left;
   width: 28.33333%;
-  margin: 2.5%;
+  margin: 2.5% 2.5% 5% 2.5%;
 }
 
 }
