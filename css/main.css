@@ -144,3 +144,24 @@ footer img {
   height: 20px;
   margin: 0 5px;  
 }
+
+
+
+/***************************************************
+jQuery Stuff
+***************************************************/
+
+#overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  hight: 100%;
+  position: absoulte;
+  top: 0px;
+  left: 0px;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin-top: 10%;
+}
