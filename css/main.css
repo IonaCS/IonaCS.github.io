@@ -152,10 +152,10 @@ jQuery Stuff
 ***************************************************/
 
 #overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.9);
   width: 100%;
   hight: 100%;
-  position: absoulte;
+  position: absolute;
   top: 0px;
   left: 0px;
   display: none;
@@ -163,5 +163,5 @@ jQuery Stuff
 }
 
 #overlay img {
-  margin-top: 10%;
+  margin: 10%;
 }
