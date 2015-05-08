@@ -144,3 +144,104 @@ footer img {
   height: 20px;
   margin: 0 5px;  
 }
+
+
+
+
+
+
+
+
+/***************************************************
+****************************************************
+Experimental: Countries To Visit Check List
+****************************************************
+***************************************************/
+
+
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+#toVisitList {
+  display: block;
+  width: 50%;
+  margin: 10% auto 0;
+}
+
+li * {
+  float: left;
+}
+
+#toVisitList li, h2 {
+  clear:both;
+  list-style:none;
+}
+
+button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 1em;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #333;
+}
+
+input[type="text"] {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #888;
+}
+
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li > input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
+}
+
+li > label {
+  font-size: 1em;
+  line-height: 40px;
+  width: 40%;
+  padding: 0 0 0 11px;
+}
+
+li >  input[type="text"] {
+  width: 40%;
+}
+
+li > .delete:hover {
+  color: #CF2323;
+}
+
+ul li input[type=text] {
+  display:none;
+}
+
+ul li.editMode input[type=text] {
+  display:block;
+}
+
+ul li.editMode label {
+  display:none;
+}
