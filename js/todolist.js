@@ -102,16 +102,16 @@ var bindCountryEvents = function(countryListItem, checkBoxEventHandler) {
 
 
 
-addButton.addEventListener("click", addCountry)
+addButton.addEventListener("click", addCountry);
 
 
 
 for (var i = 0; i < unvisitedCountriesHolder.children.length; i += 1) {
-  bindCountryEvents(unvisitedCountriesHolder.children[i])
+  bindCountryEvents(unvisitedCountriesHolder.children[i],countryVisited);
 }
 
 
 
 for (var i = 0; i < visitedCountriesHolder.children.length; i += 1) {
-  bindCountryEvents(visitedCountriesHolder.children[i])
+  bindCountryEvents(visitedCountriesHolder.children[i],countryUnvisited);
 }
