@@ -171,13 +171,14 @@ Experimental: Countries To Visit Check List
   margin: 32.5% auto 5%;
 }
 
-section li * {
+#toVisitList li * {
   float: left;
 }
 
 #toVisitList li, h3 {
   clear:both;
   list-style:none;
+  padding: 1% 0;
 }
 
 button {
@@ -208,10 +209,10 @@ input[type="text"] {
   color: #888;
 }
 
-li {
+#toVisitList li {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eef9fc;
 }
 
 li > input[type="checkbox"] {
