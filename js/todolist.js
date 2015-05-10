@@ -53,11 +53,14 @@ var editCountry = function() {
   var editInput = listItem.querySelector("input[type=text]");
   var label = listItem.querySelector("label");
   var containsClass = listItem.classList.contains("editMode");
+  var editButton = listItem.getElementsByTagName("button")[0];
 
   if(containsClass) {
     label.innerText = editInput.value;
+    editButton.innerText = "Edit";
   } else {
     editInput.value = label.innerText;
+    editButton.innerText = "Save";
   }
 
   listItem.classList.toggle("editMode");
