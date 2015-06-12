@@ -27,6 +27,7 @@ header {
   text-align: left;
   margin: 0 0 2.5% 0;
   background: #a5e8fc;
+  border-radius: 0 0 10px 10px;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h1 {
   margin: 0 0 0 2%;
   padding: 1%;
   color: #1c3e2d;
+  text-shadow: 2px 3px 10px #496557;
 }
 
 h2 {
@@ -45,6 +47,7 @@ h2 {
   margin: 0 0 0 2%;
   padding: 0 0 1%;
   color: #1c3e2d;
+  text-shadow: 2px 3px 20px #496557;
 }
 
 nav ul {
@@ -84,6 +87,7 @@ h3 {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   border: 3px dotted #a5e8fc;
+  padding: 1% 0;
 }
 
 #gallery li a p {
@@ -107,14 +111,13 @@ img {
   width: 90%;
   margin: 5% 5% 10% 5%;
   background-color: #d6f3fc;
+  border-radius: 0 0 10px 10px;
 }
 
 #maingallery li {
   float: left;
   width: 28.33333%;
   margin: 2.5%;
-  padding: 0;
-  background-color: #d6f3fc;
 }
 
 #maingallery a {
@@ -173,12 +176,6 @@ Experimental: Countries To Visit Check List
 
 #toVisitList li * {
   float: left;
-}
-
-#toVisitList li, h3 {
-  clear:both;
-  list-style:none;
-  padding: 1% 0;
 }
 
 button {
