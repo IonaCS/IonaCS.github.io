@@ -36,7 +36,7 @@ jQuery Stuff
 
 
 
-@media screen and (min-width:660px) {
+@media screen and (min-width:1030px) {
 
 /***************************************************
 Country Visit List
@@ -49,5 +49,7 @@ li > label {
 li >  input[type="text"] {
   width: 226px
 }
+
+//Need to make center for much larger screens
 
 }
