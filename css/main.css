@@ -26,8 +26,10 @@ Heading a5e8fc=lightblue 1c3e2d=murkydarkgreen
 header {
   text-align: left;
   margin: 0 0 2.5% 0;
-  background: #a5e8fc;
-  border-radius: 0 0 10px 10px;
+  padding: 70px;
+  background: linear-gradient(#eef9fc, transparent 20%),
+              linear-gradient(0deg, #eef9fc, transparent),
+              #a5e8fc url('../img/Iguana.JPG') no-repeat center;
 }
 
 h1 {
@@ -36,8 +38,8 @@ h1 {
   font-weight: normal;
   margin: 0 0 0 2%;
   padding: 1%;
-  color: #1c3e2d;
-  text-shadow: 2px 3px 10px #496557;
+  color: #2E002E;
+  text-shadow: 2px 3px 5px #CCFFCC;
 }
 
 h2 {
@@ -46,8 +48,8 @@ h2 {
   font-weight: normal;
   margin: 0 0 0 2%;
   padding: 0 0 1%;
-  color: #1c3e2d;
-  text-shadow: 2px 3px 20px #496557;
+  color: #2E002E;
+  text-shadow: 2px 3px 10px #CCFFCC;
 }
 
 nav ul {
