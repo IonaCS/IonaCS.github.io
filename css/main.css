@@ -76,12 +76,6 @@ nav a:hover {
 Section d6f3fc=verylightblue eef9fc=lighter
 ***************************************************/
 
-/*background-image - Accepts an image path that applies the file to the background of an element.
-background-size - Sets the size of background images.
-background-repeat - Sets whether or not a background image should be repeated. By default, backgrounds will repeat.
-
-Can select specific a part of a border (border-bottom-color:) and take advantage of CSS order rules*/
-
 section {
   background: #d6f3fc;
 }
@@ -129,6 +123,14 @@ img {
 
 #maingallery a:hover {
   opacity: 0.4;
+}
+
+#maingallery p {
+  visibility: hidden;
+}
+
+#maingallery p:hover {
+  visibility: visible;
 }
 
 
