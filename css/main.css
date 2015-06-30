@@ -83,7 +83,8 @@ section {
 h3 {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  border: 3px dotted #a5e8fc;
+  background: linear-gradient(0deg, #eef9fc, transparent),
+              #a5e8fc;
   padding: 1% 0;
 }
 
@@ -169,6 +170,9 @@ Experimental: Countries To Visit Check List
   display: block;
   width: 80%;
   margin: 32.5% auto 5%;
+  background: linear-gradient(#d6f3fc, transparent),
+              linear-gradient(0deg, #d6f3fc, transparent),
+              #a5e8fc url('../img/WorldMap.jpg') no-repeat center;
 }
 
 #toVisitList li * {
@@ -178,7 +182,7 @@ Experimental: Countries To Visit Check List
 button {
   background: none;
   border: 0px;
-  color: #888;
+  color: #555;
   font-size: 1em;
   width: 60px;
   margin: 10px 0 0;
