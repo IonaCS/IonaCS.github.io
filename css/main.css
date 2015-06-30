@@ -125,14 +125,6 @@ img {
   opacity: 0.4;
 }
 
-#maingallery p {
-  visibility: hidden;
-}
-
-#maingallery p:hover {
-  visibility: visible;
-}
-
 
 
 /***************************************************
