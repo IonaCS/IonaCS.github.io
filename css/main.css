@@ -88,6 +88,16 @@ h3 {
   padding: 1% 0;
 }
 
+#gallerytext {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  padding: 5%;
+  background: #d6f3fc;
+  color: #1c3e2d;
+  border-radius: 10px;
+}
+
 #gallery li a p {
   margin: 5px;
   padding: 0.5%;
@@ -110,7 +120,7 @@ img {
   width: 90%;
   margin: 5% 5% 10% 5%;
   background-color: #d6f3fc;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
 }
 
 #maingallery li {
