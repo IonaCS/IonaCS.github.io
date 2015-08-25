@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Bonjour tout le monde!</h1>
-<p>Welcome to my GitHub page</p>
+<h1>Hello</h1>
+<p>Welcome to my very first website</p>
 </body>
 </html>
