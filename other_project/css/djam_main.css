@@ -1,0 +1,59 @@
+/***************************************************
+Misc
+***************************************************/
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: #1A0000;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/***************************************************
+Heading
+***************************************************/
+header {
+  text-align: center;
+  margin: 0 0 2.5% 0;
+  padding: 10%;
+  background: linear-gradient(#1A0000, transparent 10%),
+              linear-gradient(0deg, #1A0000, transparent),
+              url('../img/WavyColours.jpg') no-repeat center;
+}
+
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  color: #733400;
+  letter-spacing: .1em;
+}
+
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: normal;
+  color: #733400;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+
+/***************************************************
+Footer
+***************************************************/
+footer {
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
