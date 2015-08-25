@@ -5,7 +5,7 @@ Misc
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-  background: #1A0000;
+  background: #0A0A0A;
 }
 
 a {
@@ -24,22 +24,29 @@ header {
   text-align: center;
   margin: 0 0 2.5% 0;
   padding: 10%;
-  background: linear-gradient(#1A0000, transparent 10%),
-              linear-gradient(0deg, #1A0000, transparent),
+  background: linear-gradient(#0A0A0A, transparent 10%),
+              linear-gradient(0deg, #0A0A0A, transparent),
+              linear-gradient(90deg, #0A0A0A, transparent 5%),
+              linear-gradient(270deg, #0A0A0A, transparent 5%),
               url('../img/WavyColours.jpg') no-repeat center;
+  background-size: 100%;
 }
 
 h1 {
+  color: #DDD;
   font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 3rem;
   font-weight: bold;
-  color: #733400;
-  letter-spacing: .1em;
+  letter-spacing: 0.5rem;
+  text-shadow:  1px 1px 1px #000, 2px 3px 10px #AAA;
 }
 
 h2 {
+  color: #DDD;
   font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem;
   font-weight: normal;
-  color: #733400;
+  text-shadow:  1px 1px 1px #000, 2px 3px 20px #AAA;
 }
 
 nav ul {
@@ -52,8 +59,9 @@ nav ul {
 Footer
 ***************************************************/
 footer {
-  text-align: center;
   clear: both;
-  padding-top: 50px;
-  color: #ccc;
+  color: #CCC;
+  font-size: 0.5rem;
+  padding: 30px;
+  text-align: center;
 }
