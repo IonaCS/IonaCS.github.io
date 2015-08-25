@@ -63,14 +63,18 @@ section li:nth-child(3n+1) {
   clear: left;
 }
 
-.logos {
+.logos, .layouts {
   list-style: none;
 }
 
-.logos img {
+.logos img, .layouts img {
   float: left;
   margin: 2.5%;
   width: 28.33333%;
+}
+
+.layouts img {
+  float: center;
 }
 
 
