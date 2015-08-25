@@ -2,10 +2,11 @@
 Misc
 ***************************************************/
 #wrapper {
-  max-width: 940px;
+	background: #0A0A0A;
   margin: 0 auto;
+  max-width: 940px;
   padding: 0 5%;
-  background: #0A0A0A;
+  text-align: center;
 }
 
 a {
@@ -21,15 +22,14 @@ body {
 Heading
 ***************************************************/
 header {
-  text-align: center;
-  margin: 0 0 2.5% 0;
-  padding: 10%;
   background: linear-gradient(#0A0A0A, transparent 10%),
               linear-gradient(0deg, #0A0A0A, transparent),
               linear-gradient(90deg, #0A0A0A, transparent 5%),
               linear-gradient(270deg, #0A0A0A, transparent 5%),
               url('../img/WavyColours.jpg') no-repeat center;
   background-size: 100%;
+  margin: 0 0 2.5% 0;
+  padding: 10%;
 }
 
 h1 {
@@ -65,8 +65,8 @@ section h1 {
 
 .logos li {
   float: left;
-  width: 28.33333%;
   margin: 2.5%;
+  width: 28.33333%;
 }
 
 
@@ -78,5 +78,4 @@ footer {
   color: #CCC;
   font-size: 0.75rem;
   padding: 30px;
-  text-align: center;
 }
