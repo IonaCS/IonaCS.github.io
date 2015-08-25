@@ -63,6 +63,10 @@ section li:nth-child(3n+1) {
   clear: left;
 }
 
+section{
+  clear: both;
+}
+
 .logos, .layouts {
   list-style: none;
 }
@@ -73,8 +77,12 @@ section li:nth-child(3n+1) {
   width: 28.33333%;
 }
 
+.layouts {
+  padding: 50px 0 0;
+}
+
 .layouts img {
-  float: center;
+  float: none;
 }
 
 
