@@ -49,9 +49,18 @@ h2 {
   text-shadow:  1px 1px 1px #000, 2px 3px 20px #AAA;
 }
 
-nav ul {
-  text-align: center;
+
+/***************************************************
+Body
+***************************************************/
+.logos {
   list-style: none;
+}
+
+.logos li {
+  float: left;
+  width: 28.33333%;
+  margin: 2.5%;
 }
 
 
@@ -61,7 +70,7 @@ Footer
 footer {
   clear: both;
   color: #CCC;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   padding: 30px;
   text-align: center;
 }
