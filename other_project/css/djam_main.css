@@ -67,24 +67,21 @@ section{
   clear: both;
 }
 
-.logos, .layouts {
+.logos {
   list-style: none;
 }
 
-.logos img, .layouts img {
+.logos img {
   float: left;
   margin: 2.5%;
   width: 28.33333%;
 }
 
-.layouts {
-  padding: 50px 0 0;
+.layout1, .layout2, .layout3 {
+  height: 480px;
+  width: 320px;
+  border: 2px inset white;
 }
-
-.layouts img {
-  float: none;
-}
-
 
 /***************************************************
 Footer
