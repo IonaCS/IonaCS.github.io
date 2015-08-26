@@ -77,6 +77,10 @@ section{
   width: 28.33333%;
 }
 
+
+/***************************************************
+Layouts
+***************************************************/
 .layout1, .layout2, .layout3 {
   border: 2px inset white;
   display: inline-block;
@@ -114,6 +118,25 @@ section{
 form {
   text-align: center;
 }
+
+.songs ul {
+  list-style: none;
+  text-align: left;
+  color: #69F;
+}
+
+.delete-btn {
+  background: #C00;
+  border: 2px solid #800;
+  border-radius: 3px;
+}
+
+.vote-btn {
+  background: #3C3;
+  border: 2px solid #093;
+  border-radius: 3px;
+}
+
 
 /***************************************************
 Footer
