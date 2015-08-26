@@ -109,6 +109,7 @@ Layouts
 }
 
 .app-header h2 {
+  color: #EEE;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 2% 0 2% 5%;
@@ -120,7 +121,7 @@ form {
 }
 
 .song, .delete, .vote {
-  color: white;
+  color: #FFF;
   display: inline;
   font-size: .7em;
   padding: 0 2%;
@@ -142,6 +143,7 @@ form {
 .songs li p {
   float: left;
   margin: 0 0 5%;
+  max-width: 78%;
 }
 
 .songs ul {
