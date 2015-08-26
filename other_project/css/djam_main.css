@@ -131,6 +131,10 @@ form {
   padding: 0 5%;
 }
 
+.songs li button, .songs li p {
+  display: inline;
+}
+
 .delete, .vote, .songs button {
   float: right;
 }
@@ -151,14 +155,12 @@ form {
   background: #E44;
   border: 2px solid #800;
   border-radius: 3px;
-  margin: 0 5% 0 0;
 }
 
 .vote-btn {
   background: #85BF25;
   border: 2px solid #093;
   border-radius: 3px;
-  margin: 0 5% 0 0;
 }
 
 
