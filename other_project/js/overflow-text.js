@@ -1,3 +1,3 @@
-$('.marquee').marquee({
+$('.songs li p').marquee({
   duplicated: true
 });
