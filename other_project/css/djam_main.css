@@ -119,10 +119,35 @@ form {
   text-align: center;
 }
 
+.song, .delete, .vote {
+  color: white;
+  display: inline;
+  font-size: .7em;
+  padding: 2%;
+}
+
+.song {
+  float: left;
+  padding: 0 5%;
+}
+
+.delete, .vote, .songs button {
+  float: right;
+}
+
+.songs li p, .songs button {
+  display: inline
+}
+
+.songs li p {
+  float: left;
+}
+
 .songs ul {
   list-style: none;
   text-align: left;
   color: #69F;
+  padding: 0 5%;
 }
 
 .delete-btn {
