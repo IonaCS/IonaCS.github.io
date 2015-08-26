@@ -1,3 +1,5 @@
-$('.songs li p').marquee({
-  duplicated: true
+$( ".songs li p" ).hover( function() {
+  $( this ).marquee({
+  	duplicated: true
+	});
 });
