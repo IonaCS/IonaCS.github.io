@@ -131,11 +131,11 @@ form {
   padding: 0 5%;
 }
 
-.songs li button, .songs li p {
+.songs li img, .songs li p {
   display: inline;
 }
 
-.delete, .vote, .songs button {
+.delete, .vote, .songs img {
   float: right;
 }
 
