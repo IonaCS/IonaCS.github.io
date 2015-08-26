@@ -78,10 +78,39 @@ section{
 }
 
 .layout1, .layout2, .layout3 {
-  height: 480px;
-  width: 320px;
   border: 2px inset white;
+  display: inline-block;
+  float: center;
+  height: 480px;
+  margin: 5px;
+  width: 320px;
 }
+
+.app-header {
+  background: linear-gradient(#0A0A0A, transparent 10%),
+              linear-gradient(0deg, #0A0A0A, transparent),
+              url('../img/DiscoBall3.jpg') no-repeat center;
+  background-size: 100%;
+  margin: 0 0 2.5% 0;
+  padding: 10%;
+}
+
+.app-header h1 {
+  color: #DDD;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: .75rem;
+  letter-spacing: 0.5rem;
+  text-shadow:  1px 1px 1px #000, 2px 3px 20px #AAA;
+}
+
+.app-header h2 {
+  color: #DDD;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow:  1px 1px 1px #000, 2px 3px 10px #AAA;
+}
+
 
 /***************************************************
 Footer
