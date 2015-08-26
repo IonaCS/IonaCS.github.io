@@ -123,7 +123,7 @@ form {
   color: white;
   display: inline;
   font-size: .7em;
-  padding: 2%;
+  padding: 0 2%;
 }
 
 .song {
@@ -135,19 +135,16 @@ form {
   float: right;
 }
 
-.songs li p, .songs button {
-  display: inline
-}
-
 .songs li p {
   float: left;
+  margin: 0 0 5%;
 }
 
 .songs ul {
   list-style: none;
   text-align: left;
   color: #69F;
-  padding: 0;
+  padding: 0 5%;
 }
 
 .delete-btn {
