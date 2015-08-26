@@ -147,19 +147,21 @@ form {
   list-style: none;
   text-align: left;
   color: #69F;
-  padding: 0 5%;
+  padding: 0;
 }
 
 .delete-btn {
-  background: #C00;
+  background: #E44;
   border: 2px solid #800;
   border-radius: 3px;
+  margin: 0 5% 0 0;
 }
 
 .vote-btn {
-  background: #3C3;
+  background: #85BF25;
   border: 2px solid #093;
   border-radius: 3px;
+  margin: 0 5% 0 0;
 }
 
 
