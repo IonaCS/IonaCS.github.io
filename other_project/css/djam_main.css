@@ -132,10 +132,6 @@ form {
   padding: 0 5%;
 }
 
-.songs li img, .songs li p {
-  display: inline;
-}
-
 .delete, .vote, .songs img {
   float: right;
 }
