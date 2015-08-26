@@ -1,8 +1,8 @@
 $(document).ready(function () {
-  $('.scroll-box').mouseenter(function () {
+  $('.songs li').mouseenter(function () {
     $(this).stop();
     var boxWidth = $(this).width();
-    var textWidth = $('.scroll-text', $(this)).width();
+    var textWidth = $('p', $(this)).width();
     if (textWidth > boxWidth) {
       var animSpeed = textWidth * 10;
       $(this).animate({

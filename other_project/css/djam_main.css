@@ -139,7 +139,9 @@ form {
 .songs li p {
   float: left;
   margin: 0 0 5%;
+  max-height: 1.2em;
   max-width: 78%;
+  overflow: hidden;
 }
 
 .songs ul {
