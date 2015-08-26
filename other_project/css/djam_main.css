@@ -91,23 +91,23 @@ section{
               linear-gradient(0deg, #0A0A0A, transparent),
               url('../img/DiscoBall3.jpg') no-repeat center;
   background-size: 100%;
-  margin: 0 0 2.5% 0;
-  padding: 10%;
+  color: #DDD;
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding: 2%;
+  text-align: left;
 }
 
 .app-header h1 {
-  color: #DDD;
-  font-family: 'PT Sans Narrow', sans-serif;
   font-size: .75rem;
   letter-spacing: 0.5rem;
+  margin: 2% 0 0 5%;
   text-shadow:  1px 1px 1px #000, 2px 3px 20px #AAA;
 }
 
 .app-header h2 {
-  color: #DDD;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  margin: 2% 0 10% 5%;
   text-shadow:  1px 1px 1px #000, 2px 3px 10px #AAA;
 }
 
