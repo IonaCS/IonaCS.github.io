@@ -111,6 +111,9 @@ section{
   text-shadow:  1px 1px 1px #000, 2px 3px 10px #AAA;
 }
 
+form {
+  text-align: center;
+}
 
 /***************************************************
 Footer
