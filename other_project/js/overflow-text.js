@@ -9,6 +9,5 @@ $('.songs li p').on('mouseover', function() {
 $("p").hover(function(){
   $(this).marquee('resume');
 }, function(){
-  console.log(this)
   $(this).marquee('pause');
 })
