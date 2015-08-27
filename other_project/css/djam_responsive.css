@@ -21,6 +21,28 @@
 
 
 
-@media screen and (min-width:650px) {
+@media screen and (min-width:500px) {
+
+	.app-header h1 {
+	  font-size: 1.25rem;
+	}
+
+	.app-header h2 {
+	  font-size: 2rem;
+	}
+
+}
+
+
+
+@media screen and (min-width:600px) {
+
+	.app-header h1 {
+	  font-size: 1.5rem;
+	}
+
+	.app-header h2 {
+	  font-size: 2.5rem;
+	}
 
 }
