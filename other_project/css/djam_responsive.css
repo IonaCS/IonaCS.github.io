@@ -1,3 +1,39 @@
+@media screen and (min-width:280px) {
+
+	.songs li p {
+	  font-size: .8rem;
+	  max-height: 1.1rem;
+  	max-width: 73%;
+	}
+
+}
+
+
+
+@media screen and (min-width:280px) {
+
+	.songs li p {
+	  font-size: .9rem;
+	  max-height: 1.2rem;
+  	max-width: 75%;
+	}
+
+}
+
+
+
+@media screen and (min-width:331px) {
+
+	.songs li p {
+		font-size: 1em;
+	  max-height: 1.4rem;
+	  max-width: 77%;
+	}
+
+}
+
+
+
 @media screen and (min-width:400px) {
 
 	.app-header h1 {

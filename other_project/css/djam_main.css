@@ -133,12 +133,15 @@ form {
 }
 
 .songs li p {
+  font-size: .7rem;
   float: left;
   margin: 0 0 5%;
-  max-height: 1.4rem;
-  max-width: 77%;
+  max-height: 1rem;
+  max-width: 68%;
   overflow: hidden;
 }
+
+
 
 .songs ul {
   list-style: none;
