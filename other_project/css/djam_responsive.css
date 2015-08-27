@@ -1,0 +1,26 @@
+@media screen and (min-width:400px) {
+
+	.app-header h1 {
+	  font-size: 1rem;
+	  letter-spacing: 0.75rem;
+	}
+
+	.app-header h2 {
+	  font-size: 1.75rem;
+	}
+
+	.song, .delete, .vote {
+	  font-size: .8em;
+	}
+
+	.delete-btn, .vote-btn {
+	  max-width: 25px;
+	}
+
+}
+
+
+
+@media screen and (min-width:650px) {
+
+}
