@@ -2,7 +2,7 @@ $('.songs li p').on('mouseover', function() {
   if ($(this).children().length > 0) {
     $(this).marquee("resume")
   } else {
-    $(this).marquee();
+    $(this).marquee( { duplicated: true, delayBeforeStart:0 } );
   }
 });
 
