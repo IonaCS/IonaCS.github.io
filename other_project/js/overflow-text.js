@@ -1,5 +1,7 @@
-$( ".songs li p" ).hover( function() {
-  $( this ).marquee({
-  	duplicated: true
-	});
-});
+$( ".songs li p" ).hover(
+  function() {
+    $( this ).marquee( { duplicated: true } );
+  }, function() {
+    $( this ).marquee( "pause" );
+  }
+);
