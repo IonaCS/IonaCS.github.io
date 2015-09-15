@@ -84,7 +84,7 @@ section {
   background: linear-gradient(0deg, #eef9fc, transparent),
             #a5e8fc;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
   letter-spacing: 0;
   padding: 1% 0;
   text-align: center;
@@ -179,7 +179,7 @@ Experimental: Countries To Visit Check List
 
 .toVisitList p, .country-visit {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: center;
 }
 
