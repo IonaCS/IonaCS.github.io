@@ -80,7 +80,7 @@ section {
   background: #d6f3fc;
 }
 
-h3 {
+.country, .pick-country-menu, .country-list {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   background: linear-gradient(0deg, #eef9fc, transparent),
@@ -88,7 +88,7 @@ h3 {
   padding: 1% 0;
 }
 
-#gallerytext {
+.gallerytext {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   text-align: justify;
@@ -101,7 +101,7 @@ h3 {
   border-radius: 10px;
 }
 
-#gallery li a p {
+.gallery li a p {
   margin: 5px;
   padding: 0.5%;
   color: #1c3e2d;
@@ -112,13 +112,13 @@ img {
   border-radius: 10px;
 }
 
-#maingallery, #gallery {
+.maingallery, .gallery {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#gallery li {
+.gallery li {
   float: left;
   width: 90%;
   margin: 5% 5% 10% 5%;
@@ -126,17 +126,17 @@ img {
   border-radius: 10px;
 }
 
-#maingallery li {
+.maingallery li {
   float: left;
   width: 28.33333%;
   margin: 2.5%;
 }
 
-#maingallery a {
+.maingallery a {
   opacity: 1.0;
 }
 
-#maingallery a:hover {
+.maingallery a:hover {
   opacity: 0.4;
 }
 
@@ -175,12 +175,12 @@ Experimental: Countries To Visit Check List
 ***************************************************/
 
 
-#toVisitList p, h4 {
+.toVisitList p, .country-vist {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
 }
 
-#toVisitList {
+.toVisitList {
   display: block;
   width: 80%;
   margin: 32.5% auto 5%;
@@ -189,7 +189,7 @@ Experimental: Countries To Visit Check List
               #a5e8fc url('../img/WorldMap.jpg') no-repeat center;
 }
 
-#toVisitList li * {
+.toVisitList li * {
   float: left;
 }
 
@@ -221,7 +221,7 @@ input[type="text"] {
   color: #888;
 }
 
-#toVisitList li {
+.toVisitList li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 2px solid #eef9fc;

@@ -15,7 +15,7 @@ header
 Section
 ***************************************************/
 
-  #gallerytext {
+  .gallerytext {
     width: 80%;
     margin: 0 5% 2.5%;
   }
@@ -24,7 +24,7 @@ Section
 jQuery Stuff (Gallery Lightbox)
 ***************************************************/
 
-  #overlay {
+  .overlay {
     background: rgba(0,0,0,0.9);
     width: 100%;
     height: 100%;
@@ -35,7 +35,7 @@ jQuery Stuff (Gallery Lightbox)
     text-align: center;
   }
 
-  #overlay img {
+  .overlay img {
     margin: 10%;
   }
 
@@ -50,7 +50,7 @@ jQuery Stuff (Gallery Lightbox)
 Section
 ***************************************************/
 
-  #gallery li {
+  .gallery li {
     float: left;
     width: 28.3333%;
     margin: 2.5% 2.5% 5% 2.5%;
@@ -74,6 +74,6 @@ Country Visit List
     width: 226px
   }
 
-//Need to make center for much larger screens
+/*Need to make center for much larger screens*/
 
 }
