@@ -4,10 +4,10 @@ Experimental: Create Countries To Visit List  --  change "edit" to "save" while 
 ********************************************************************************
 *******************************************************************************/
 
-var countryInput = document.getElementById("new-country");
+var countryInput = document.getElementsByClassName("new-country");
 var addButton = document.getElementsByTagName("button")[0];
-var unvisitedCountriesHolder = document.getElementById("unvisited-countries");
-var visitedCountriesHolder = document.getElementById("visited-countries");
+var unvisitedCountriesHolder = document.getElementsByClassName("unvisited-countries");
+var visitedCountriesHolder = document.getElementsByClassName("visited-countries");
 
 
 
