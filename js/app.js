@@ -4,7 +4,7 @@ Create Lightbox
 ********************************************************************************
 *******************************************************************************/
 
-var $overlay = $('<div id="overlay"></div>');
+var $overlay = $('<div class="overlay"></div>');
 var $image = $("<img>");
 
 $overlay.append($image);
