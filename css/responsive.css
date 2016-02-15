@@ -5,7 +5,7 @@ header
 ***************************************************/
 
   header {
-    padding: 70px;
+    padding: 50px;
     background: linear-gradient(#eef9fc, transparent 20%),
                 linear-gradient(0deg, #eef9fc, transparent),
                 #a5e8fc url('../img/Iguana.JPG') no-repeat center;
