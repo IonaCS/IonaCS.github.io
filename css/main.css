@@ -6,15 +6,9 @@ a {
   text-decoration: none;
 }
 
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-  background: #eef9fc;
-}
-
 body {
   font-family: 'Muli', sans-serif;
+  background: #eef9fc;
 }
 
 
@@ -77,7 +71,8 @@ Section d6f3fc=verylightblue eef9fc=lighter
 ***************************************************/
 
 section {
-  background: #d6f3fc;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .country, .pick-country-menu, .country-list {

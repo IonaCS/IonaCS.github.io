@@ -55,6 +55,10 @@ Section
     width: 28.3333%;
     margin: 2.5% 2.5% 5% 2.5%;
   }
+
+  header {
+    background-size: cover;
+  }
 }
 
 
