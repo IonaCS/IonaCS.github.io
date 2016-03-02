@@ -9,6 +9,7 @@ header
     background: linear-gradient(#eef9fc, transparent 20%),
                 linear-gradient(0deg, #eef9fc, transparent),
                 #a5e8fc url('../img/Iguana.JPG') no-repeat center;
+    background-size: cover;
   }
 
 /***************************************************
@@ -36,6 +37,7 @@ jQuery Stuff (Gallery Lightbox)
   }
 
   .overlay img {
+    display: inline;
     margin: 10%;
   }
 
@@ -56,9 +58,6 @@ Section
     margin: 2.5% 2.5% 5% 2.5%;
   }
 
-  header {
-    background-size: cover;
-  }
 }
 
 
